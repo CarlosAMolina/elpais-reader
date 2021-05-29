@@ -16,7 +16,7 @@ handlers:
     class : logging.handlers.RotatingFileHandler
     formatter: precise
     # If the file does not exist it will be created.
-    filename: elpais_reader/logging/logs/project.log
+    filename: elpais_reader/log/logs/project.log
     maxBytes: 5120
     backupCount: 1
 root:

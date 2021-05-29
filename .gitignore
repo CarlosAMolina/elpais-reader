@@ -1,7 +1,7 @@
 # Project
 /tests/files/
 /elpais_reader/index.html
-/elpais_reader/logging/logs/
+/elpais_reader/log/logs/
 
 # Python
 /build/

@@ -2,6 +2,7 @@ import browser
 import export
 import cli
 import request_url
+from log import logger
 
 
 def main() -> None:
@@ -12,4 +13,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    logger.configure()
     main()
