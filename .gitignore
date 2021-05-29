@@ -1,5 +1,6 @@
 # Project
-tests/files/
+/tests/files/
+/elpais_reader/logging/logs/
 
 # Python
 /build/

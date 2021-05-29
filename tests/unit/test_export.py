@@ -5,7 +5,10 @@ from elpais_reader import export
 
 
 class TestHtmlParser(unittest.TestCase):
+    def setUp(self):
+        self.exporter = export.HtmlExporter()
+
     def test_filepath_default(self):
-        self.assertTrue(export.filepath().endswith("index.html"))
+        self.assertTrue(self.exporter.filepath.endswith("index.html"))
         working_directory = str(pathlib.Path().absolute())
-        self.assertTrue(export.filepath().startswith(working_directory))
+        self.assertTrue(self.exporter.filepath.startswith(working_directory))
