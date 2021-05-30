@@ -1,8 +1,8 @@
-import browser
-import export
-import cli
-import request_url
-from log import logger
+from . import browser
+from . import cli
+from . import export
+from . import request_url
+from .log import logger
 
 
 def main() -> None:

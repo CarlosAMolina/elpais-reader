@@ -2,6 +2,9 @@
 /tests/files/
 /elpais_reader/index.html
 /elpais_reader/log/logs/
+*.spec
+/build/
+/dist/
 
 # Python
 /build/

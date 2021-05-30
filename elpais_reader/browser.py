@@ -1,6 +1,7 @@
-import export
-import webbrowser
 import logging
+import webbrowser
+
+from . import export
 
 
 class Browser:

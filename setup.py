@@ -29,4 +29,5 @@ setuptools.setup(
     },
     python_requires=">=3.6",
     version="0.0.1",
+    entry_points={"console_scripts": ["elpais=elpais_reader.__main__:main"]},
 )
